@@ -1,13 +1,14 @@
 # This code should find digits and sum them from the strig
 
 def sum_digit(text):
-    sum_list = []
+    total = []
+    current_nums = ""
     for char in text:
         if char.isdigit():
-            sum_list.append(int(char))
+            current_nums = char
         else:
-            print('No digit')
-    return sum(sum_list)
+            total.append(current_nums)
+    return sum(total)
 
 
 print(sum_digit("anbvdesn45367e8ducjb4367"))
