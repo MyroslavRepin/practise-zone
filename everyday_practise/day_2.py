@@ -13,4 +13,4 @@ def sum_digit(text):
 
 print(sum_digit("anbvdesn45367e8ducjb4367"))
 
-# DONE :)
+
