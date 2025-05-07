@@ -1,4 +1,4 @@
-# This code should find digits and sum them from the strig
+# This code should find digits and sum them from the striNg
 
 def sum_digit(text):
     total = 0

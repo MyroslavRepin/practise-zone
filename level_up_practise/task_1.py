@@ -1,4 +1,4 @@
-# DATE 4/30/2025
+# CHECKING IF WORL IS POLINDROM
 def is_polindrom(word):
     if word[::-1] == word:
         return True

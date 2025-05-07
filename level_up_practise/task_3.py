@@ -1,3 +1,4 @@
+# FINDING MOST FREQUINLY REPEATED CHAR
 def bigger_char(text):
     alphabetDict = dict()
 
