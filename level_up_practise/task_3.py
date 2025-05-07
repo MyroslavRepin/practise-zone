@@ -1,9 +1,13 @@
 def bigger_char(text):
-    chars = {
-        'a': 10,
-        'b': 3
-    }
-    return max(chars.values())
+    alphabetDict = dict()
+
+    for char in text:
+        if char in alphabetDict:
+            alphabetDict[char] += 1
+        else:
+            alphabetDict[char] = 1
+    max_value = max(alphabetDict.values())
+    print(max_value)
 
 
-print(bigger_char("abnjqzyaahjghaadsdfsaxgcfbgca"))
+print(bigger_char("abbbbccc"))
