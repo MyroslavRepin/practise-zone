@@ -8,6 +8,10 @@ def bigger_char(text):
             alphabetDict[char] = 1
     max_value = max(alphabetDict.values())
     print(max_value)
+    print(alphabetDict)
+
+    keys = [key for key, val in alphabetDict.items() if val == max_value]
+    print(keys)
 
 
-print(bigger_char("abbbbccc"))
+bigger_char("abbbbccc")
