@@ -5,11 +5,12 @@ def deleting_vowels(text):
     for char in text:
         list_text.append(char)
     vowels = ['а', 'е', 'и', 'о', 'у', 'ы', 'э', 'ю', 'я', 'ё', 'А', 'Е', 'И', 'О',
-              'У', 'Ы', 'Э', 'Ю', 'Я', 'Ё', 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+              'У', 'Ы', 'Э', 'Ю', 'Я', 'Ё', 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U', 'y', 'Y']
     for char in list_text:
-        if char in vowels:
-            list_text.remove(char)
-            print(list_text)
+        if char not in vowels:
+            result.append(char)
+
+    return "".join(result)
 
 
-deleting_vowels('taxt')
+print(deleting_vowels('myroslav'))
