@@ -15,4 +15,4 @@ def bigger_char(text):
     print(keys)
 
 
-bigger_char("abbbbccc")
+bigger_char("abbcccd")
