@@ -1,10 +1,21 @@
 def binary_search(sorted_list, target):
-    middle = len(sorted_list) // 2
-    last_element = sorted_list[:middle+1][:-1]
-    print(last_element[-1])
-    #     print('Less')
-    # else:
-    #     print('else')
+    # Need to create a function for a dividing a list
+
+    def deleting_half(sorted_list, first_part):
+        global middle_index
+        middle_index = len(sorted_list) // 2
+        if first_part:
+            return sorted_list[middle_index:]
+        if not first_part:
+            return sorted_list[:middle_index]
+
+    print(deleting_half(sorted_list, False))
+    last_element = sorted_list[:middle_index][-1]
+    print(last_element)
+    if last_element >= 7:
+        print('Last element bigger than target')
+    else:
+        print("Last element is smaller than target")
 
 
 target = 7
