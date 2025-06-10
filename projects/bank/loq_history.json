@@ -1,0 +1,134 @@
+[
+    {
+        "user": "myroslav",
+        "action": "deposit",
+        "amount": 100,
+        "currency": "USD",
+        "time": "2025-06-09T22:26:18.800887"
+    },
+    {
+        "user": "myroslav",
+        "action": "withdraw",
+        "amount": 50,
+        "currency": "USD",
+        "time": "2025-06-09T22:26:18.801340"
+    },
+    {
+        "user": "myroslav",
+        "action": "transfer",
+        "amount": 10,
+        "currency": "USD",
+        "time": "2025-06-09T22:26:18.801589",
+        "to": "ben"
+    },
+    {
+        "user": "ben",
+        "action": "deposit",
+        "amount": 500,
+        "currency": "USD",
+        "time": "2025-06-09T22:26:18.801864"
+    },
+    {
+        "user": "ben",
+        "action": "withdraw",
+        "amount": 100,
+        "currency": "USD",
+        "time": "2025-06-09T22:26:18.802072"
+    },
+    {
+        "user": "ben",
+        "action": "transfer",
+        "amount": 100,
+        "currency": "USD",
+        "time": "2025-06-09T22:26:18.802291",
+        "to": "myroslav"
+    },
+    {
+        "user": "myroslav",
+        "action": "deposit",
+        "amount": 100,
+        "currency": "USD",
+        "time": "2025-06-09T22:26:22.124747"
+    },
+    {
+        "user": "myroslav",
+        "action": "withdraw",
+        "amount": 50,
+        "currency": "USD",
+        "time": "2025-06-09T22:26:22.125435"
+    },
+    {
+        "user": "myroslav",
+        "action": "transfer",
+        "amount": 10,
+        "currency": "USD",
+        "time": "2025-06-09T22:26:22.126281",
+        "to": "ben"
+    },
+    {
+        "user": "ben",
+        "action": "deposit",
+        "amount": 500,
+        "currency": "USD",
+        "time": "2025-06-09T22:26:22.126638"
+    },
+    {
+        "user": "ben",
+        "action": "withdraw",
+        "amount": 100,
+        "currency": "USD",
+        "time": "2025-06-09T22:26:22.126912"
+    },
+    {
+        "user": "ben",
+        "action": "transfer",
+        "amount": 100,
+        "currency": "USD",
+        "time": "2025-06-09T22:26:22.127180",
+        "to": "myroslav"
+    },
+    {
+        "user": "myroslav",
+        "action": "deposit",
+        "amount": 100,
+        "currency": "USD",
+        "time": "2025-06-09T22:27:01.785906"
+    },
+    {
+        "user": "myroslav",
+        "action": "withdraw",
+        "amount": 50,
+        "currency": "USD",
+        "time": "2025-06-09T22:27:01.786575"
+    },
+    {
+        "user": "myroslav",
+        "action": "transfer",
+        "amount": 10,
+        "currency": "USD",
+        "time": "2025-06-09T22:27:01.787395",
+        "to": "ben"
+    },
+    {
+        "user": "ben",
+        "action": "deposit",
+        "amount": 500,
+        "currency": "USD",
+        "time": "2025-06-09T22:27:01.787713"
+    },
+    {
+        "user": "ben",
+        "action": "withdraw",
+        "amount": 100,
+        "currency": "USD",
+        "time": "2025-06-09T22:27:01.788067"
+    },
+    {
+        "user": "ben",
+        "action": "transfer",
+        "amount": 100,
+        "currency": "USD",
+        "time": "2025-06-09T22:27:01.788374",
+        "to": "myroslav"
+    }
+]
